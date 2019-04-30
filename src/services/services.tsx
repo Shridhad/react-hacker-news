@@ -1,10 +1,12 @@
 const HN_API = "https://api.hnpwa.com/v0/";
-export function fetchItems(type: string, page = 1) {
-    return fetch(`${HN_API}${type}/${page}.json`)
-        .then((res => res.json()));
+
+
+export async function fetchItems(type: string, page = 1) {
+    const res = await fetch(`${HN_API}${type}/${page}.json`);
+    return await res.json();
 }
 
-export function fetchItem(id: string) {
-    return fetch(`${HN_API}/item/${id}.json`)
-        .then(res => res.json());
+export async function fetchItem(id: string) {
+    const res = await fetch(`${HN_API}/item/${id}.json`);
+    return await res.json();
 }
