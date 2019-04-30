@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomeView from './home';
+import HomeView from './Home';
 
 describe("<HomeView />", () => {
     it('renders HomeView', () => {

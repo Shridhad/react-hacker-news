@@ -11,7 +11,7 @@ export default class HomeView extends React.Component {
 
     componentDidMount() {
         fetchItems("news")
-            .then(stories => this.setState({stories}))
+            .then(stories => this.setState({stories}));
     }
 
     render() {
@@ -19,7 +19,7 @@ export default class HomeView extends React.Component {
             <div className="home-view">
                 {this.renderStories(this.state.stories)}
             </div>
-        )
+        );
     }
 
     renderStories(stories: Array<StoryItem>) {

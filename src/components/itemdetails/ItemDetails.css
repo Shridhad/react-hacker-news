@@ -1,0 +1,11 @@
+
+
+.item-details .list-item {
+    padding-left: 0;
+    border-bottom: none; 
+}
+
+.item-details .item-content,
+.item-details .item-comments {
+    padding-left: 1rem;
+}

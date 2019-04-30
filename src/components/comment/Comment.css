@@ -1,0 +1,32 @@
+.comment-details {
+    font-size: 0.95rem;
+    margin-top: 1rem;
+}
+
+.comment-details .comment-meta {
+    color: #666;
+}
+
+.comment-details .comment-meta a {
+    color: #666;
+    padding: 0 0.3rem;
+    text-transform: lowercase;    
+}
+
+.comment-details .content {
+    margin: 0;
+    padding: 0 0.5rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.comment-details .content p {
+    margin: 0.5rem 0 0;
+}
+
+.comment-details .content a {
+    color: inherit;
+}
+
+.comment-details .comments {
+    padding-left: 1rem;
+}
