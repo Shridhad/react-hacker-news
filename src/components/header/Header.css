@@ -1,0 +1,11 @@
+.header {
+    background-color: #2d3033;
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.header a {
+    color: #00b4f0;
+    text-decoration: none;
+}
+
