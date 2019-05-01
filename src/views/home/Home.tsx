@@ -9,9 +9,9 @@ export default class HomeView extends React.Component {
         stories: []
     }
 
-    componentDidMount() {
-        fetchItems("news")
-            .then(stories => this.setState({stories}));
+    async componentDidMount() {
+        const stories = await fetchItems("news");
+        this.setState({stories});
     }
 
     render() {

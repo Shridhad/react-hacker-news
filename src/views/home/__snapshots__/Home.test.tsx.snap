@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<HomeView /> renders HomeView 1`] = `
-<div>
-  <div
-    class="home-view"
-  />
-</div>
-`;
